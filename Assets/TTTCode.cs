@@ -191,4 +191,170 @@ public class TTTCode : MonoBehaviour
             PlayerO.text = Convert.ToString(plusone + 1);
         }
     }
+
+    public void BTNText1_Click()
+    {
+        if (checker == false)
+        {
+            BTNText1.text = "X";
+            checker = true;
+        }
+        else
+        {
+            BTNText1.text = "O";
+            checker = false;
+        }
+        score();
+    }
+
+    public void BTNText2_Click()
+    {
+        if (checker == false)
+        {
+            BTNText2.text = "X";
+            checker = true;
+        }
+        else
+        {
+            BTNText2.text = "O";
+            checker = false;
+        }
+        score();
+    }
+
+    public void BTNText3_Click()
+    {
+        if (checker == false)
+        {
+            BTNText3.text = "X";
+            checker = true;
+        }
+        else
+        {
+            BTNText3.text = "O";
+            checker = false;
+        }
+        score();
+    }
+
+    public void BTNText4_Click()
+    {
+        if (checker == false)
+        {
+            BTNText4.text = "X";
+            checker = true;
+        }
+        else
+        {
+            BTNText4.text = "O";
+            checker = false;
+        }
+        score();
+    }
+
+    public void BTNText5_Click()
+    {
+        if (checker == false)
+        {
+            BTNText5.text = "X";
+            checker = true;
+        }
+        else
+        {
+            BTNText5.text = "O";
+            checker = false;
+        }
+        score();
+    }
+
+    public void BTNText6_Click()
+    {
+        if (checker == false)
+        {
+            BTNText6.text = "X";
+            checker = true;
+        }
+        else
+        {
+            BTNText6.text = "O";
+            checker = false;
+        }
+        score();
+    }
+
+    public void BTNText7_Click()
+    {
+        if (checker == false)
+        {
+            BTNText7.text = "X";
+            checker = true;
+        }
+        else
+        {
+            BTNText7.text = "O";
+            checker = false;
+        }
+        score();
+    }
+
+    public void BTNText8_Click()
+    {
+        if (checker == false)
+        {
+            BTNText8.text = "X";
+            checker = true;
+        }
+        else
+        {
+            BTNText8.text = "O";
+            checker = false;
+        }
+        score();
+    }
+
+    public void BTNText9_Click()
+    {
+        if (checker == false)
+        {
+            BTNText9.text = "X";
+            checker = true;
+        }
+        else
+        {
+            BTNText9.text = "O";
+            checker = false;
+        }
+        score();
+    }
+
+
+    public void Reset_Click()
+    {
+        BTNText1.text = "";
+        BTNText2.text = "";
+        BTNText3.text = "";
+        BTNText4.text = "";
+        BTNText5.text = "";
+        BTNText6.text = "";
+        BTNText7.text = "";
+        BTNText8.text = "";
+        BTNText9.text = "";
+
+        BTNText1.color = Color.black;
+        BTNText2.color = Color.black;
+        BTNText3.color = Color.black;
+        BTNText4.color = Color.black;
+        BTNText5.color = Color.black;
+        BTNText6.color = Color.black;
+        BTNText7.color = Color.black;
+        BTNText8.color = Color.black;
+        BTNText9.color = Color.black;
+    }
+
+    public void New_Click()
+    {
+        Reset_Click();
+        PlayerX.text = "";
+        PlayerO.text = "";
+    }
 }
