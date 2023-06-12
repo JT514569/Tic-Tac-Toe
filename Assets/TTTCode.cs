@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UnityEngine.SceneManagement;
 
 public class TTTCode : MonoBehaviour
 {
@@ -194,137 +195,182 @@ public class TTTCode : MonoBehaviour
 
     public void BTNText1_Click()
     {
-        if (checker == false)
+        if (BTNText1.text == "")
         {
-            BTNText1.text = "X";
-            checker = true;
+
+            if (checker == false)
+            {
+                BTNText1.text = "X";
+                checker = true;
+            }
+            else
+            {
+                BTNText1.text = "O";
+                checker = false;
+            }
+            score();
         }
-        else
-        {
-            BTNText1.text = "O";
-            checker = false;
-        }
-        score();
+
     }
 
     public void BTNText2_Click()
     {
-        if (checker == false)
+        if (BTNText2.text == "")
         {
-            BTNText2.text = "X";
-            checker = true;
+
+            if (checker == false)
+            {
+                BTNText2.text = "X";
+                checker = true;
+            }
+            else
+            {
+                BTNText2.text = "O";
+                checker = false;
+            }
+            score();
         }
-        else
-        {
-            BTNText2.text = "O";
-            checker = false;
-        }
-        score();
+
     }
 
     public void BTNText3_Click()
     {
-        if (checker == false)
+        if (BTNText3.text == "")
         {
-            BTNText3.text = "X";
-            checker = true;
+
+            if (checker == false)
+            {
+                BTNText3.text = "X";
+                checker = true;
+            }
+            else
+            {
+                BTNText3.text = "O";
+                checker = false;
+            }
+            score();
         }
-        else
-        {
-            BTNText3.text = "O";
-            checker = false;
-        }
-        score();
+
     }
 
     public void BTNText4_Click()
     {
-        if (checker == false)
+        if (BTNText4.text == "")
         {
-            BTNText4.text = "X";
-            checker = true;
+
+            if (checker == false)
+            {
+                BTNText4.text = "X";
+                checker = true;
+            }
+            else
+            {
+                BTNText4.text = "O";
+                checker = false;
+            }
+            score();
         }
-        else
-        {
-            BTNText4.text = "O";
-            checker = false;
-        }
-        score();
+
     }
 
     public void BTNText5_Click()
     {
-        if (checker == false)
+        if (BTNText5.text == "")
         {
-            BTNText5.text = "X";
-            checker = true;
+
+            if (checker == false)
+            {
+                BTNText5.text = "X";
+                checker = true;
+            }
+            else
+            {
+                BTNText5.text = "O";
+                checker = false;
+            }
+            score();
         }
-        else
-        {
-            BTNText5.text = "O";
-            checker = false;
-        }
-        score();
+
     }
 
     public void BTNText6_Click()
     {
-        if (checker == false)
+        if (BTNText6.text == "")
         {
-            BTNText6.text = "X";
-            checker = true;
+
+            if (checker == false)
+            {
+                BTNText6.text = "X";
+                checker = true;
+            }
+            else
+            {
+                BTNText6.text = "O";
+                checker = false;
+            }
+            score();
         }
-        else
-        {
-            BTNText6.text = "O";
-            checker = false;
-        }
-        score();
+
     }
 
     public void BTNText7_Click()
     {
-        if (checker == false)
+        if (BTNText7.text == "")
         {
-            BTNText7.text = "X";
-            checker = true;
+
+            if (checker == false)
+            {
+                BTNText7.text = "X";
+                checker = true;
+            }
+            else
+            {
+                BTNText7.text = "O";
+                checker = false;
+            }
+            score();
         }
-        else
-        {
-            BTNText7.text = "O";
-            checker = false;
-        }
-        score();
+
     }
 
     public void BTNText8_Click()
     {
-        if (checker == false)
+        if (BTNText8.text == "")
         {
-            BTNText8.text = "X";
-            checker = true;
+
+            if (checker == false)
+            {
+                BTNText8.text = "X";
+                checker = true;
+            }
+            else
+            {
+                BTNText8.text = "O";
+                checker = false;
+            }
+            score();
         }
-        else
-        {
-            BTNText8.text = "O";
-            checker = false;
-        }
-        score();
+
     }
 
     public void BTNText9_Click()
     {
-        if (checker == false)
+        if (BTNText9.text == "")
         {
-            BTNText9.text = "X";
-            checker = true;
+
+            if (checker == false)
+            {
+                BTNText9.text = "X";
+                checker = true;
+            }
+            else
+            {
+                BTNText9.text = "O";
+                checker = false;
+            }
+            score();
         }
-        else
-        {
-            BTNText9.text = "O";
-            checker = false;
-        }
-        score();
+
     }
 
 
@@ -339,6 +385,7 @@ public class TTTCode : MonoBehaviour
         BTNText7.text = "";
         BTNText8.text = "";
         BTNText9.text = "";
+        msgFeedback.text = "";
 
         BTNText1.color = Color.black;
         BTNText2.color = Color.black;
@@ -353,8 +400,6 @@ public class TTTCode : MonoBehaviour
 
     public void New_Click()
     {
-        Reset_Click();
-        PlayerX.text = "";
-        PlayerO.text = "";
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
     }
 }
