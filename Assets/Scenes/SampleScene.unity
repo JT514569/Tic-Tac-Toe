@@ -451,13 +451,13 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1554429306}
-  - {fileID: 1195711137}
-  - {fileID: 749654009}
   - {fileID: 1365636968}
-  - {fileID: 1349558247}
-  - {fileID: 1530361121}
   - {fileID: 1136093571}
+  - {fileID: 1195711137}
+  - {fileID: 1349558247}
   - {fileID: 1719820128}
+  - {fileID: 749654009}
+  - {fileID: 1530361121}
   - {fileID: 609201001}
   - {fileID: 2077325624}
   - {fileID: 221471975}
@@ -970,7 +970,7 @@ GameObject:
   - component: {fileID: 749654011}
   - component: {fileID: 749654010}
   m_Layer: 5
-  m_Name: BTNTAC3
+  m_Name: BTNTAC7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1043,7 +1043,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 273257257}
         m_TargetAssemblyTypeName: TTTCode, Assembly-CSharp
-        m_MethodName: BTNText3_Click
+        m_MethodName: BTNText7_Click
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1428,7 +1428,7 @@ GameObject:
   - component: {fileID: 1136093573}
   - component: {fileID: 1136093572}
   m_Layer: 5
-  m_Name: BTNTAC7
+  m_Name: BTNTAC3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1501,7 +1501,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 273257257}
         m_TargetAssemblyTypeName: TTTCode, Assembly-CSharp
-        m_MethodName: BTNText7_Click
+        m_MethodName: BTNText3_Click
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1711,7 +1711,7 @@ GameObject:
   - component: {fileID: 1195711139}
   - component: {fileID: 1195711138}
   m_Layer: 5
-  m_Name: BTNTAC2
+  m_Name: BTNTAC4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1784,7 +1784,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 273257257}
         m_TargetAssemblyTypeName: TTTCode, Assembly-CSharp
-        m_MethodName: BTNText2_Click
+        m_MethodName: BTNText4_Click
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2060,7 +2060,7 @@ GameObject:
   - component: {fileID: 1365636970}
   - component: {fileID: 1365636969}
   m_Layer: 5
-  m_Name: BTNTAC4
+  m_Name: BTNTAC2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2133,7 +2133,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 273257257}
         m_TargetAssemblyTypeName: TTTCode, Assembly-CSharp
-        m_MethodName: BTNText4_Click
+        m_MethodName: BTNText2_Click
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2194,7 +2194,7 @@ GameObject:
   - component: {fileID: 1530361123}
   - component: {fileID: 1530361122}
   m_Layer: 5
-  m_Name: BTNTAC6
+  m_Name: BTNTAC8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2267,7 +2267,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 273257257}
         m_TargetAssemblyTypeName: TTTCode, Assembly-CSharp
-        m_MethodName: BTNText6_Click
+        m_MethodName: BTNText8_Click
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2542,7 +2542,7 @@ GameObject:
   - component: {fileID: 1719820130}
   - component: {fileID: 1719820129}
   m_Layer: 5
-  m_Name: BTNTAC8
+  m_Name: BTNTAC6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2615,7 +2615,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 273257257}
         m_TargetAssemblyTypeName: TTTCode, Assembly-CSharp
-        m_MethodName: BTNText8_Click
+        m_MethodName: BTNText6_Click
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
