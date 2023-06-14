@@ -28,6 +28,8 @@ public class TTTCode : MonoBehaviour
     public Text PlayerX;
     public Text PlayerO;
 
+
+
     public void score()
     {
         if (BTNText1.text == "X" && BTNText2.text == "X" && BTNText3.text == "X")
@@ -401,5 +403,11 @@ public class TTTCode : MonoBehaviour
     public void New_Click()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
+    }
+
+    public void Awake()
+    {
+            Reset_Click();
+
     }
 }
